@@ -1,7 +1,7 @@
 # Storyblok automation framework
 ## Cypress UI automated tests
 
-### *Framework Explanation*
+### Framework Explanation
 
 - Framework designed by adopting Page Object Model design pattern.
 - Project dependencies managed with npm in package.json.
@@ -20,13 +20,17 @@
 
 #### Reports
    - Implemented mochawesome reporter with customized test results folder creation.
+---
 
-#### Test execution
-   - Run 'npx cypress run' to execute test suite.
+## Test execution steps
+   - Open VS code terminal window and input below commands
+
+     - npm i
+     - npx cypress run 
 
 ---
 
-### Test cases automated
+## Test cases automated
  1. Asset registration- upload, verify, edit, delete asset.
  2. Edit asset before upload- create folder, edit while upload, verify asset details.
  3. Private and Public asset- mark asset as private and public, verify its preview.
