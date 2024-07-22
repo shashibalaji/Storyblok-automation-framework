@@ -1,0 +1,18 @@
+{
+    "prod_url":"https://app.storyblok.com/#/login",
+    "prod_email":"shashibalajins@gmail.com",
+    "prod_password":"Storyblok@123",
+
+    "dev_url":"https://app.storyblok.com/#/login",
+    "dev_email":"shashikumar.star.bs@gmail.com",
+    "dev_password":"Storyblok@123",
+
+    "staging_url":"https://app.storyblok.com/#/login",
+    "staging_email":"shashibalajins@gmail.com",
+    "staging_password":"Storyblok@123",
+
+    "platformname":"staging",
+
+    "list of environments":"prod dev staging"
+ 
+}

@@ -1,0 +1,19 @@
+{
+  "name": "storyblok-automation-framework",
+  "version": "1.0.0",
+  "description": "Storyblok automation framework",
+  "main": "index.js",
+  "scripts": {
+    "test1": "cypress run --spec \"cypress/e2e/assets-tests/asset_registration.spec.js\" --headed",
+    "test2": "cypress run --spec \"cypress/e2e/assets-tests/edit_beforeupload.spec.js\" --headed",
+    "test3": "cypress run --spec \"cypress/e2e/assets-tests/private_public_asset.spec.js\" --headed",
+    "test4": "cypress run --spec \"cypress/e2e/assets-tests/replace_asset.spec.js\" --headed",
+    "test5": "cypress run --spec \"cypress/e2e/assets-tests/multiple_fileupload_spec.js\" --headed"
+  },
+  "author": "Shashi",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
