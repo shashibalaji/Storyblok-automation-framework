@@ -4,6 +4,9 @@
   "description": "Storyblok automation framework",
   "main": "index.js",
   "scripts": {
+    "headlesstest":"npx cypress run",
+    "headtest":"npx cypress run --headed",
+    "chrometest":"npx run test --browser chrome",
     "test1": "cypress run --spec \"cypress/e2e/assets-tests/asset_registration.spec.js\" --headed",
     "test2": "cypress run --spec \"cypress/e2e/assets-tests/edit_beforeupload.spec.js\" --headed",
     "test3": "cypress run --spec \"cypress/e2e/assets-tests/private_public_asset.spec.js\" --headed",
