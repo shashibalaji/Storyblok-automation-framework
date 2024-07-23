@@ -8,7 +8,7 @@ import {
 import spaces from "../../support/features/spaces/spacesPage";
 import registration from "../../support/features/assets/assetsRegistration";
 
-describe('"Private/Public Asset', () => {
+describe('Private/Public Asset', () => {
   let platform, env;
   let filePath = "cypress/fixtures/files/image/gif_testfile.gif";
   const fileName = getFileName(filePath);
