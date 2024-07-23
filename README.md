@@ -23,10 +23,10 @@
 ---
 
 ## Test execution steps
-   - Open VS code terminal window and input below commands
+   - Open VS code terminal window with node installed and input below commands
 
      - npm i
-     - npx cypress run 
+     - npx cypress run --headed 
 
 ---
 
@@ -41,11 +41,11 @@
 ![Screenshot 2024-07-22 at 15 38 52](https://github.com/user-attachments/assets/1d0f7a9c-7dd4-459f-9475-70f50a0f09a7)
 
 
+
+https://github.com/user-attachments/assets/d17d96d9-8e18-436a-9be0-c3fed172731d
+
 ---
 
 ### Future improvements:
  - Retrieving cookies and injecting token to subsquent tests can be added to avoid login to each test case.
 
-
-
-  
